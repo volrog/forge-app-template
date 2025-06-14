@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "outDir": "./build",
+    "moduleResolution": "bundler",
+  },
+  "include": [
+    "./src",
+    "vite.config.ts",
+    "vitest.config.ts",
+  ]
+}

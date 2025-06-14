@@ -1,4 +1,4 @@
-.yarn/*
+.yarn
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
@@ -15,3 +15,9 @@ node_modules
 
 #!.yarn/cache
 .pnp.*
+
+# IDE
+.idea
+.vscode
+
+packages/frontend/dist
