@@ -15,20 +15,20 @@
   "devDependencies": {
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
-    "@vitejs/plugin-react": "^4.5.2",
-    "postcss": "^8.5.5",
-    "rollup": "^4.43.0",
+    "@vitejs/plugin-react": "^4.6.0",
+    "postcss": "^8.5.6",
+    "rollup": "^4.44.0",
     "tslib": "^2.8.1",
     "typescript": "^5.8.3",
-    "vite": "^5.4.19",
-    "vite-css-modules": "^1.8.7",
+    "vite": "^7.0.0",
+    "vite-css-modules": "^1.9.0",
     "vite-tsconfig-paths": "^5.1.4",
-    "vitest": "^3.2.3"
+    "vitest": "^3.2.4"
   },
   "dependencies": {
     "@atlaskit/css-reset": "^7.3.2",
-    "@atlaskit/flag": "^17.1.6",
-    "@forge/bridge": "^5.0.0",
+    "@atlaskit/flag": "^17.1.9",
+    "@forge/bridge": "^5.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "shared": "workspace:^"
