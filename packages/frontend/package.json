@@ -4,9 +4,9 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "test": "vitest",
-    "dev": "vite",
+    "start": "vite",
     "build": "vite build",
+    "test": "vitest",
     "lint": "eslint ./src",
     "lint-fix": "eslint ./src --fix",
     "ts-check": "tsc --noEmit"

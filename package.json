@@ -5,14 +5,14 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "yarn workspaces foreach -A -p -v -i run dev",
+    "start": "yarn workspaces foreach -A -p -v -i run start",
     "build": "yarn workspace frontend build",
     "lint": "yarn workspaces foreach -A -p -v -i run lint",
-    "lint-fix": "yarn workspaces foreach -A -p -v -i run lint-fix",
-    "ts-check": "yarn workspaces foreach -A -p run ts-check",
-    "forge-register": "yarn workspace forge-jira forge-register",
-    "forge-install": "yarn workspace forge-jira forge-install",
-    "forge-deploy": "yarn build && yarn workspace forge-jira forge-deploy",
-    "forge-upgrade": "yarn forge-deploy && yarn workspace forge-jira forge-upgrade"
+    "lint:fix": "yarn workspaces foreach -A -p -v -i run lint-fix",
+    "ts:check": "yarn workspaces foreach -A -p run ts-check",
+    "forge:register": "yarn workspace forge-jira forge-register",
+    "forge:install": "yarn workspace forge-jira forge-install",
+    "forge:deploy": "yarn build && yarn workspace forge-jira forge-deploy",
+    "forge:upgrade": "yarn forge-deploy && yarn workspace forge-jira forge-upgrade"
   }
 }
