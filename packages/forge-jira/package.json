@@ -10,7 +10,9 @@
     "forge-install": "forge install",
     "forge-upgrade": "forge install --upgrade",
     "lint": "eslint ./src",
-    "lint-fix": "eslint ./src --fix"
+    "lint-fix": "eslint ./src --fix",
+    "test": "vitest run",
+    "test-watch": "vitest"
   },
   "dependencies": {
     "@forge/api": "^6.0.0",
@@ -21,6 +23,7 @@
     "typescript": "^5.8.3"
   },
   "devDependencies": {
-    "@yarnpkg/pnpify": "^4.1.5"
+    "@yarnpkg/pnpify": "^4.1.5",
+    "vitest": "^3.2.4"
   }
 }

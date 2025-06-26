@@ -7,6 +7,8 @@
   "scripts": {
     "start": "yarn workspaces foreach -A -p -v -i run start",
     "build": "yarn workspace frontend build",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "lint": "yarn workspaces foreach -A -p -v -i run lint",
     "lint:fix": "yarn workspaces foreach -A -p -v -i run lint-fix",
     "ts:check": "yarn workspaces foreach -A -p run ts-check",
@@ -14,5 +16,9 @@
     "forge:install": "yarn workspace forge-jira forge-install",
     "forge:deploy": "yarn build && yarn workspace forge-jira forge-deploy",
     "forge:upgrade": "yarn forge-deploy && yarn workspace forge-jira forge-upgrade"
+  },
+  "devDependencies": {
+    "jsdom": "^26.1.0",
+    "vitest": "^3.2.4"
   }
 }

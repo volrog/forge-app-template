@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "main": "src/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test-watch": "vitest"
   },
   "private": true,
   "dependencies": {
     "tslib": "^2.8.1",
     "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "vitest": "^3.2.4"
   }
 }
