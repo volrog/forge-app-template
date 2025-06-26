@@ -1,10 +1,17 @@
-import type { FC } from 'react';
-import styles from './styles.module.css';
+import { type FC, useEffect, useState } from 'react';
+import { invoke } from '@forge/bridge';
 
 export const App: FC = () => {
+  const [data, setData] = useState<string>();
+
+  useEffect(() => {
+    invoke<string>('getText').then(setData)
+  }, []);
+
   return (
-    <div className={styles.root}>
+    <section>
       <h1>Hello from <strong>Forge App Example</strong>!</h1>
-    </div>
+      <p>{data ? data : 'Loading...'}</p>
+    </section>
   );
 };

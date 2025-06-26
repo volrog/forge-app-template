@@ -9,8 +9,10 @@ void view.theme.enable().then(() => {
   const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 
   root.render(
-    <FlagsProvider>
-      <App/>
-    </FlagsProvider>,
+    <StrictMode>
+      <FlagsProvider>
+        <App/>
+      </FlagsProvider>
+    </StrictMode>,
   );
 });
