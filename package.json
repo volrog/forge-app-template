@@ -1,5 +1,17 @@
 {
   "name": "forge-app-template",
+  "description": "Forge App Template",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/volrog/forge-app-template"
+  },
+  "bugs": {
+    "url": "https://github.com/volrog/forge-app-template/issues"
+  },
+  "homepage": "https://github.com/volrog/forge-app-template#readme",
+  "author": "Aleksandr Gorlov <volrog.inbox@gmail.com>",
+  "license": "MIT",
   "packageManager": "yarn@4.9.2",
   "workspaces": [
     "packages/*"
