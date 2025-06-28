@@ -14,8 +14,8 @@
   },
   "private": true,
   "devDependencies": {
-    "@types/react": "^19.1.8",
-    "@types/react-dom": "^19.1.6",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^4.6.0",
     "jsdom": "^26.1.0",
     "postcss": "^8.5.6",
@@ -31,8 +31,8 @@
     "@atlaskit/css-reset": "^7.3.2",
     "@atlaskit/flag": "^17.1.9",
     "@forge/bridge": "^5.1.0",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "shared": "workspace:^"
   }
 }
